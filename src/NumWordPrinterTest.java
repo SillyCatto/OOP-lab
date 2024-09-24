@@ -40,4 +40,10 @@ class NumWordPrinterTest {
         assertEquals("OddOneOut", nwPrinter.printWord(535));
     }
 
+    @Test
+    public void testUpperCase(){
+        NumWordPrinter nwPrinter = new NumWordPrinter();
+        assertEquals("EVEN", nwPrinter.printWord(2, true));
+    }
+
 }

@@ -14,5 +14,11 @@ public class NumWordPrinter {
             return "OddOneOut";
         }
     }
-
+    public String printWord(int n, boolean isUpper){
+        if (isUpper){
+            return printWord(n).toUpperCase();
+        } else {
+            return printWord(n);
+        }
+    }
 }
