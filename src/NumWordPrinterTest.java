@@ -34,4 +34,10 @@ class NumWordPrinterTest {
         assertEquals("EvenPrimeLucky", nwPrinter.printWord(286));
     }
 
+    @Test
+    public void testOddOneOut(){
+        NumWordPrinter nwPrinter = new NumWordPrinter();
+        assertEquals("OddOneOut", nwPrinter.printWord(535));
+    }
+
 }
