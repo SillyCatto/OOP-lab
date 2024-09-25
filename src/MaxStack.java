@@ -24,6 +24,11 @@ public class MaxStack {
         }
     }
 
+    public void pop(){
+        st.pop();
+        helperStack.pop();
+    }
+
     public int getMax(){
         return helperStack.peek();
     }
